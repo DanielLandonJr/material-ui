@@ -10,13 +10,13 @@ components: Select, NativeSelect
 
 菜单位于其所点击的元素上, 使得当前选定的菜单项显示在点击元素上。
 
-{{"演示": "pages/demos/selects/SimpleSelect.js"}}
+{{"demo": "pages/demos/selects/SimpleSelect.js"}}
 
 ## 原生的选择器
 
 由于可以使用平台的原生选择器在移动设备上改进用户体验，我们允许这种模式。
 
-{{"演示": "pages/demos/selects/NativeSelects.js"}}
+{{"demo": "pages/demos/selects/NativeSelects.js"}}
 
 ## 多选
 
@@ -24,13 +24,13 @@ components: Select, NativeSelect
 
 与单项选择一样，您可以通过访问` onChange `属性中的回调` event.target.value `来提取新值。它总是一个数组。
 
-{{"演示": "pages/demos/selects/MultipleSelect.js"}}
+{{"demo": "pages/demos/selects/MultipleSelect.js"}}
 
 ## 与对话框组件使用
 
 虽然Material Design的规范不鼓励，但您可以在对话框组件中使用选择。
 
-{{"演示": "pages/demos/selects/DialogSelect.js"}}
+{{"demo": "pages/demos/selects/DialogSelect.js"}}
 
 ## Text Fields
 
@@ -38,4 +38,4 @@ components: Select, NativeSelect
 
 ## 受控的选择器
 
-{{"演示": "pages/demos/selects/ControlledOpenSelect.js"}}
+{{"demo": "pages/demos/selects/ControlledOpenSelect.js"}}
