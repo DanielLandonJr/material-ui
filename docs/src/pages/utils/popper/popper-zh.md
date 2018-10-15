@@ -1,8 +1,8 @@
 ---
 title: 弹出器 React 组件
-components: 弹出器
+components: Popper
 ---
-# 弹出器
+# Popper
 
 <p class="description">弹出器可以用来在其他元素之上显示一些内容。它和 react-popper 的功能是类似的。</p>
 
