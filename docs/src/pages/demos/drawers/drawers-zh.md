@@ -18,11 +18,11 @@ components: Drawer, SwipeableDrawer
 
 {{"demo": "pages/demos/drawers/TemporaryDrawer.js", "hideEditButton": true}}
 
-## Swipeable Temporary drawer
+## 可滑动的临时抽屉
 
-You can make the drawer swipeable with the `SwipeableDrawer` component.
+您可以使用 `SwipeableDrawer` 组件滑动抽屉。
 
-This component comes with a 2 kB gzipped payload overhead. Some low-end mobile devices won't be able to follow the fingers at 60 FPS. You can use the `disableBackdropTransition` property to help.
+此组件附带 2 kB gzip 的负载开销。 一些低端移动设备无法以 60 FPS 的速度跟随手指。 您可以使用 `disableBackdropTransition` 属性来提供帮助。
 
 {{"demo": "pages/demos/drawers/SwipeableTemporaryDrawer.js", "hideEditButton": true}}
 
