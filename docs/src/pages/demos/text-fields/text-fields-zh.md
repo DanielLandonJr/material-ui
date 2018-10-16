@@ -44,17 +44,17 @@ components: FilledInput, FormControl, FormHelperText, Input, InputAdornment, Inp
 
 {{"demo": "pages/demos/text-fields/TextFieldMargins.js"}}
 
-## 输入装饰
+## 修饰输入
 
 `Input` 允许提供`InputAdornment`. 这些可用于向输入添加前缀、后缀或动作. 例如, 您可以使用图标按钮来隐藏或显示密码.
 
 {{"demo": "pages/demos/text-fields/InputAdornments.js"}}
 
-## 填充输入装饰品
+## 修饰填充
 
 {{"demo": "pages/demos/text-fields/FilledInputAdornments.js"}}
 
-## Outlined Input Adornments
+## 修饰轮廓
 
 {{"demo": "pages/demos/text-fields/OutlinedInputAdornments.js"}}
 
