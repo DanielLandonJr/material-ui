@@ -8,13 +8,13 @@ components: Drawer, SwipeableDrawer
 
 [Navigation drawers](https://material.io/design/components/navigation-drawer.html) 提供对目标和应用功能 如切换帐户 的访问。 它们可以是永久在屏幕上或由导航菜单图标控制。
 
-[Side sheets](https://material.io/design/components/sheets-side.html) are supplementary surfaces primarily used on tablet and desktop.
+[侧栏](https://material.io/design/components/sheets-side.html) 是主要用于平板电脑和台式机的辅助平面。
 
 ## 临时抽屉
 
 临时导航抽屉可以打开或关闭。默认情况下关闭，抽屉打开会暂时在所有其他内容之上，直到选择一个部分。
 
-The Drawer can be cancelled by clicking the overlay or pressing the Esc key. It closes when an item is selected, handled by controlling the `open` prop.
+单击或者按Esc键可以关闭抽屉。当选择抽屉中的一项时，它也会关闭，通过操作 `open` prop来处理。
 
 {{"demo": "pages/demos/drawers/TemporaryDrawer.js", "hideEditButton": true}}
 
