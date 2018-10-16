@@ -40,9 +40,9 @@ const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
 
 永久抽屉是桌面</strong> 推荐的默认值**。</p> 
 
-### Full-height navigation
+### 全高度导航栏
 
-Apps focused on information consumption that use a left-to-right hierarchy.
+应用程序侧重与从左到右层次结构的信息消费。
 
 {{"demo": "pages/demos/drawers/PermanentDrawer.js", "hideEditButton": true}}
 
