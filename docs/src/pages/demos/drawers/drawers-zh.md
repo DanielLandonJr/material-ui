@@ -38,7 +38,7 @@ const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
 
 永久抽屉始终可见并固定在左侧，与内容或背景位于同一高度。他们无法被关闭。
 
-Permanent navigation drawers are the **recommended default for desktop**.
+永久抽屉是桌面</strong> 推荐的默认值**。</p> 
 
 ### Full-height navigation
 
