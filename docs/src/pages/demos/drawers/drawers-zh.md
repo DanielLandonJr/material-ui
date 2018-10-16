@@ -1,14 +1,14 @@
 ---
-title: Drawer React component
+title: React Paper 组件
 components: Drawer, SwipeableDrawer
 ---
 # 抽屉
 
-<p class="description">Navigation drawers provide access to destinations in your app. Side sheets are surfaces containing supplementary content that are anchored to the left or right edge of the screen.</p>
+<p class="description">导航抽屉可以访问您应用中的地址。侧栏是包含附加内容的平面，它固定在屏幕的左侧或右侧。</p>
 
 [Navigation drawers](https://material.io/design/components/navigation-drawer.html) 提供对目标和应用功能 如切换帐户 的访问。 它们可以是永久在屏幕上或由导航菜单图标控制。
 
-[侧栏](https://material.io/design/components/sheets-side.html) 是主要用于平板电脑和台式机的辅助平面。
+[Side sheets](https://material.io/design/components/sheets-side.html) 主要用于平板电脑和台式机的辅助平面。
 
 ## 临时抽屉
 
@@ -34,9 +34,9 @@ const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
 <SwipeableDrawer disableBackdropTransition={!iOS} disableDiscovery={iOS} />
 ```
 
-## Permanent drawer
+## 永久抽屉
 
-Permanent navigation drawers are always visible and pinned to the left edge, at the same elevation as the content or background. They cannot be closed.
+永久抽屉始终可见并固定在左侧，与内容或背景位于同一高度。他们无法被关闭。
 
 Permanent navigation drawers are the **recommended default for desktop**.
 
