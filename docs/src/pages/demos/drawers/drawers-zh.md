@@ -52,9 +52,9 @@ Apps focused on productivity that require balance across the screen.
 
 {{"demo": "pages/demos/drawers/ClippedDrawer.js", "hideEditButton": true}}
 
-## Persistent drawer
+## 持久抽屉
 
-Persistent navigation drawers can toggle open or closed. The drawer sits on the same surface elevation as the content. It is closed by default and opens by selecting the menu icon, and stays open until closed by the user. The state of the drawer is remembered from action to action and session to session.
+持久抽屉可以打开或关闭。 抽屉与内容位于同一表面的高度上。 它默认情况下是关闭的，可通过选择菜单图标打开，它会保持打开状态，直到用户关闭。 The state of the drawer is remembered from action to action and session to session.
 
 When the drawer is outside of the page grid and opens, the drawer forces other content to change size and adapt to the smaller viewport.
 
