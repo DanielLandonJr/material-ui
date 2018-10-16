@@ -38,6 +38,6 @@ components: AppBar, Toolbar, Menu
 
 {{"demo": "pages/demos/app-bar/DenseAppBar.js"}}
 
-## Bottom App Bar
+## 底部应用栏
 
 {{"demo": "pages/demos/app-bar/BottomAppBar.js"}}
